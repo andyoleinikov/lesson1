@@ -19,6 +19,7 @@ def main():
 def greet_user(bot, update):
     text = 'Вызван /start'
     print(text)
+    print(update)
     update.message.reply_text(text)
 
 
